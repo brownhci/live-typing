@@ -80,15 +80,3 @@ The ```typingIndicator``` function returns an array with three elements:
 ```responseElement```: an HTML element that can be used to display the typing indicator in the UI.
 
 The ```responseElement``` is usually added to the DOM to display the typing indicator in the user interface. If you're creating a messaging application, this will be used by the server to send to the recipient client.
-
-## Publications
-
-@inproceedings{papoutsaki2018eye,
-author={Iftikhar, Zainab and Yumeng, Ma and Huang, Jeff},
-title={``Together but not together”: Evaluating Typing Indicators for
-Interaction-Rich Communication},
-booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
-pages={},
-year={2023},
-organization={ACM}
-}
