@@ -1,0 +1,14 @@
+{
+  "include": ["src", "types", "props"],
+  "compilerOptions": {
+    "target": "es6",
+    "rootDir": "./src",
+    "baseUrl": "./",
+    "paths": {
+      "@": ["./"],
+      "*": ["src/*", "node_modules/*"]
+    },
+    "jsx": "react",
+    "esModuleInterop": true,
+  }
+}

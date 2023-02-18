@@ -1,0 +1,38 @@
+{
+  "name": "live-typing",
+  "version": "1.0.3",
+  "description": "This package includes both the design and implementation of four typing indicators that integrate the rich features proposed by Media Richness Theory.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brownhci/live-typing.git"
+  },
+  "keywords": [
+    "typing indicators",
+    "live typing",
+    "masked typing"
+  ],
+  "author": "Zainab Iftikhar",
+  "license": "Brown University",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/jest": "^25.1.5",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "ts-loader": "^6.2.2",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/brownhci/live-typing/issues"
+  },
+  "homepage": "https://github.com/brownhci/live-typing#readme"
+}
