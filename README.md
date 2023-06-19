@@ -1,6 +1,6 @@
 # [live-typing](https://www.npmjs.com/package/live-typing)
 
-Interaction rich indicators for text-based communication
+Interaction-rich indicators for text-based communication
 
 ## Description
 
@@ -15,13 +15,23 @@ Next, there are two new indicators that this library includes for message transp
 * Masked-typing: typing is concealed and displayed as # characters. The actual characters are revealed once it is sent.
 * Live-typing: typed characters are displayed in real-time.
 
+## Demo
 
-## Features
+https://github.com/brownhci/live-typing/assets/23429685/4e75376f-01a7-4f6c-8665-efc9ab6bf179
 
-* Real time typing indicators based on the concepts of Media Richness Theory (MRT)
-* Allows user customisation for interaction-rich communication
-* Easy to integrate
+## Publications
 
+  _**Note:** You can install the npm package by running `npm i live-typing` command in your terminal. Package details [here](https://www.npmjs.com/package/live-typing)._
+
+	@inproceedings{iftikhar2023together,
+	author     = {Zainab Iftikhar, Yumeng Ma, and Jeff Huang},
+	title      = {“Together but not together”: Evaluating Typing Indicators for Interaction-Rich Communication},
+    booktitle  = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+    pages      = {1--12},
+	year       = {2023},
+	organization={ACM}
+	}
+ 
 ## Installation
 
 ### Build the repository 
@@ -51,7 +61,7 @@ import { typingIndicator } from 'live-typing';
 
 ## Customization
 
-By default, the typing indicator is set to ... (is-typing). The timeout is set to 5000ms. The indicators are linked with the following key values:
+By default, the typing indicator is set to ... (is-typing). The timeout is set to 5000ms. Based on your application needs, you can customize the variables or have users enable it in their settings. The indicators are linked with the following key values:
 
 ```
 No-indicator: 1
@@ -80,17 +90,4 @@ The ```typingIndicator``` function returns an array with three elements:
 ```responseElement```: an HTML element that can be used to display the typing indicator in the UI.
 
 The ```responseElement``` is usually added to the DOM to display the typing indicator in the user interface. If you're creating a messaging application, this will be used by the server to send to the recipient client.
-
-## Publications
-
-  _**Note:** You can install the npm package by running `npm i live-typing` command in your terminal. Package details [here](https://www.npmjs.com/package/live-typing)._
-
-	@inproceedings{iftikhar2023together,
-	author     = {Zainab Iftikhar, Yumeng Ma, and Jeff Huang},
-	title      = {“Together but not together”: Evaluating Typing Indicators for Interaction-Rich Communication},
-    booktitle  = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
-    pages      = {1--12},
-	year       = {2023},
-	organization={ACM}
-	}
 
