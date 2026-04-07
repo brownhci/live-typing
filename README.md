@@ -74,7 +74,7 @@ Masked-typing: 4
 
 The ```typingIndicator``` is a custom function of the package ```live-typing``` that creates a typing indicator which can display the typing state of an input field. The function takes an object with two properties: timeout which determines how long to wait before assuming that the user has stopped typing, and indicatorType which specifies the type of typing indicator to use.
 
-In this example, we set the timout to 500ms and choose the Masked Typing indicator.
+In this example, we set the timeout to 500ms and choose the Masked Typing indicator.
 
 ```
 const [isTyping, typedCharacter, responseElement] = typingIndicator({
